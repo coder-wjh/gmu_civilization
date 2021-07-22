@@ -1,0 +1,123 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "赣南医学院"
+			}
+		},
+		{
+			"path": "pages/revisePwd/index",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/checkedlist/index",
+			"style": {
+				"navigationBarTitleText": "走访记录"
+			}
+		},
+		{
+			"path": "pages/checkform/index",
+			"style": {
+				"navigationBarTitleText": "寝室评价"
+			}
+		},
+		{
+			"path": "pages/feedback/index",
+			"style": {
+				"navigationBarTitleText": "反馈页面"
+			}
+		},
+
+		{
+			"path": "pages/teaDormlist/index",
+			"style": {
+				"navigationBarTitleText": "班级寝室"
+			}
+		},
+		{
+			"path": "pages/teaRecordMsg/index",
+			"style": {
+				"navigationBarTitleText": "查寝记录"
+			}
+		},
+		{
+			"path": "pages/teaCheckDetail/index",
+			"style": {
+				"navigationBarTitleText": "查寝详情"
+			}
+		},
+
+		{
+			"path": "pages/insDormlist/index",
+			"style": {
+				"navigationBarTitleText": "寝室列表"
+			}
+		},
+		{
+			"path": "pages/insDormCheck/index",
+			"style": {
+				"navigationBarTitleText": "查寝记录"
+			}
+		},
+		{
+			"path": "pages/insRanking/index",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path": "pages/insRecordlist/index",
+			"style": {
+				"navigationBarTitleText": "查寝记录"
+			}
+		},
+		{
+			"path": "pages/insRecordMsg/index",
+			"style": {
+				"navigationBarTitleText": "查寝记录"
+			}
+		},
+		{
+			"path": "pages/insCheckDetail/index",
+			"style": {
+				"navigationBarTitleText": "查寝详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarTitleText": "赣南医学院",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#00702B",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+    "color": "#515151",
+    "selectedColor": "#00702B",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/insDormlist/index",
+        "text": "寝室信息",
+        "iconPath": "/static/navs/dorm.png",
+        "selectedIconPath": "/static/navs/dorm_active.png"
+      },
+      {
+        "pagePath": "pages/insRecordlist/index",
+        "text": "历史记录",
+        "iconPath": "/static/navs/record.png",
+        "selectedIconPath": "/static/navs/record_active.png"
+      },
+			{
+        "pagePath": "pages/insRanking/index",
+        "text": "排行榜",
+        "iconPath": "/static/navs/ranking.png",
+        "selectedIconPath": "/static/navs/ranking_active.png"
+      }
+    ]
+  }
+}
